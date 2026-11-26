@@ -1,0 +1,10 @@
+FINTRACK — UPDATED HOSTINGER BUSINESS PACKAGE
+
+1) Read HOSTINGER_DEPLOY_GUIDE.md before uploading.
+2) Upload this ZIP using Hostinger's Node.js Web App flow, not as a static/PHP site.
+3) The application uses PostgreSQL; configure an external PostgreSQL DATABASE_URL.
+4) Hostinger must run: npm run build && npm run db:push (first deployment).
+5) The old dist/ folder was deliberately excluded because it contained the previous build.
+6) IMPORTANT: the guide documents authentication security issues found in the supplied source. Do not use real financial data or expose the app publicly until those are fixed.
+
+This archive is source-based: it requires Hostinger's build process to produce dist/index.cjs and dist/public/.
